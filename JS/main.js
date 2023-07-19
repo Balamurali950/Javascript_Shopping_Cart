@@ -92,3 +92,23 @@
           });
       });
   });
+
+
+  // Get the cart icon and item count elements
+const cartIcon = document.querySelector('.cart-icon');
+const itemCount = document.querySelector('.item-count');
+
+// Function to update the item count in the cart
+function updateItemCount(count) {
+  itemCount.textContent = count;
+}
+
+// Example: Update the item count to 5 (you can modify this according to your logic)
+updateItemCount(5);
+
+
+
+
+
+
+
